@@ -1,0 +1,24 @@
+#output {
+  display: block;
+  white-space: pre;
+}
+
+#output, #output span {
+  font-family: Consolas, Monaco, 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+}
+
+#output span {
+  text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.ok {
+  color: #0C0;
+}
+
+.error {
+  color: #C00;
+}
+
+.info {
+  color: #FF0;
+}

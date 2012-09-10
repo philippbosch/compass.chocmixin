@@ -1,0 +1,13 @@
+{
+  "name": "compass.mixin",
+  "version": "0.1",
+  "description": "A compass mixin for Chocolat",
+  "keywords": ["chocolat", "compass", "mixin"],
+  "author": "Philipp Bosch <hello@pb.io>",
+  "homepage": "http://github.com/philippbosch/compass.chocmixin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philippbosch/compass.chocmixin.git"
+  },
+  "license": "WTFPL"
+}
