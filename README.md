@@ -19,6 +19,14 @@ Compass compilation is invoked automatically every time you save a
 succeeds, a notification is displayed (OSX 10.8 only). If an error 
 happens, a popover with the output from the compass binary is shown.
 
+## Known Issues
+
+For the mixin to be able to find the compass binary on your `PATH`
+Chocolat needs to be started from a Terminal window using the `choc`
+command line tool. Otherwise Chocolat does not read the `PATH` 
+environment variable from your login shell. Please feel free to 
+propose a better solution. See issue #1.
+
 ## License 
 
 [MIT](http://philippbosch.mit-license.org/)
